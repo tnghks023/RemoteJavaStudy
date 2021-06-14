@@ -8,4 +8,8 @@ public class ClassA {
 	public double methodb() {
 		return 123.1234;
 	}
+	
+	public ClassA getInstance() {
+		return this;
+	}
 }
